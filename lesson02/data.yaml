@@ -1,0 +1,13 @@
+yaml_dict:
+  item1:
+  - 33
+  - д
+  item2: 988₽
+  item3:
+  - 100
+  - 😛
+yaml_int: 29475624
+yaml_list:
+- 1
+- 2
+- 3
