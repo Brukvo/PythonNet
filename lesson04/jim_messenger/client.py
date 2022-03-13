@@ -63,7 +63,7 @@ def parse_resp(s_resp):
         return f'400: {s_resp[ERROR]}'
 
 
-if '__main__':
+if __name__ == '__main__':
     # инициализируем и разбираем параметры с помощью argparse (надстройка над sys.argv)
     # обработку параметров argparse берёт на себя
     p = argparse.ArgumentParser()

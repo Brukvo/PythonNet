@@ -41,7 +41,7 @@ def loop(s_ip, s_port):
             server.close()
 
 
-if '__main__':
+if __name__ == '__main__':
     # инициализируем и разбираем параметры с помощью argparse (надстройка над sys.argv)
     # обработку параметров argparse берёт на себя
     p = argparse.ArgumentParser()

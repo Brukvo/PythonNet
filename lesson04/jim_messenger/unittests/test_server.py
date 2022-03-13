@@ -3,7 +3,7 @@ import sys
 import unittest
 sys.path.append(os.path.join(os.getcwd(), '..'))
 import common.vars as v
-from server import s_response
+from common.utils import s_response
 
 
 class TestServer(unittest.TestCase):

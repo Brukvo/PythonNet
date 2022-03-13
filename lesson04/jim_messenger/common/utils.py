@@ -28,7 +28,7 @@ def s_response(message):
             and vars.USER in message and message[vars.USER][vars.ACCOUNT_NAME] == 'Guest':
         return {vars.RESPONSE: 200}
     return {
-        vars.RESP_DEFAULT_IP_ADDR: 400,
+        vars.RESPONSE: 400,
         vars.ERROR: 'Bad Request'
     }
 
